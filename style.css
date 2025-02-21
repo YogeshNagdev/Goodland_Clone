@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.ann {
+  width: 100%;
+  height: 2.5rem;
+}
+.ann h1 {
+  position: relative;
+  height: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 0.4rem;
+  font-weight: 440;
+  background: linear-gradient(to right, lightyellow, rgb(255, 255, 91));
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(212, 212, 212);
+  width: 100%;
+}
+
+.nav {
+  height: 9rem;
+  background: linear-gradient(to right, lightyellow, rgb(255, 255, 91));
+  display: flex;
+}
+.nav .left {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+}
+.nav .left img {
+  aspect-ratio: 7/5;
+  cursor: pointer;
+}
+.nav .mid {
+  display: flex;
+  gap: 1.5rem;
+  width: 40%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  padding-left: 3.8rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.nav .mid a {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1;
+}
+.nav .right {
+  width: 35%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding-right: 13rem;
+}
+.nav .right a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav .right i {
+  cursor: pointer;
+}
+
+main {
+  height: 33.5rem;
+  width: 100%;
+}
+main img {
+  width: 100%;
+  aspect-ratio: 2.9/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
